@@ -1,0 +1,147 @@
+*,
+html,
+body, :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  transition: all 0.4s ease-in-out;
+}
+
+a:focus,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+body main header a {
+  padding-bottom: 26px;
+}
+
+body main header a:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+}
+
+body main header .drop-down a:hover {
+  color: black;
+  border: 0;
+}
+
+h2 {
+  margin-bottom: 48px;
+  padding-bottom: 16px;
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 700;
+  position: relative;
+  text-transform: capitalize;
+}
+
+h3 {
+  margin: 0 0 10px;
+  font-size: 28px;
+  line-height: 36px;
+}
+
+button {
+  outline: none !important;
+}
+
+.connection-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+
+.brighten img {
+  filter: brightness(50%);
+  transition: all 1s ease;
+}
+
+.brighten img:hover {
+  filter: brightness(100%);
+}
+
+.card .bg-img {
+  background: url("https://niscka.com/cdn/shop/products/DSC09913.jpg?v=1675240705");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img:hover {
+  background: url("https://niscka.com/cdn/shop/products/DSC01850.jpg?v=1675240705");
+  background-size: cover;
+}
+
+.card .bg-img-1 {
+  background: url("https://www.pdpaola.com/cdn/shop/files/5-AN01-933-U_alt3_2c4689d2-9d7f-4917-b1b7-87fb9cf70e6d_500x.jpg?v=1690193346");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-1:hover {
+  background: url("https://www.pdpaola.com/cdn/shop/files/3-AN01-933_beauty1_a8f89a06-b4c7-4677-81fb-e50046e63fa4_500x.jpg?v=1690193339");
+  background-size: cover;
+}
+
+.card .bg-img-2 {
+  background: url("https://everstylish.com/pub/media/catalog/product/cache/f1831bc42043919087a4ff2769315671/j/e/jew1103213-t.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-2:hover {
+  background: url("https://everstylish.com/pub/media/catalog/product/cache/f1831bc42043919087a4ff2769315671/j/e/jew1103213_zoom.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-3 {
+  background: url("https://blingvine.com/cdn/shop/products/zehra-pearl-earrings-earrings-blingvine-374533_1000x.jpg?v=1655114900");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-3:hover {
+  background: url("https://blingvine.com/cdn/shop/products/zehra-pearl-earrings-earrings-blingvine-439063_1000x.jpg?v=1655114979");
+  background-size: cover;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.drop-down {
+  display: none;
+}
+
+nav .item:hover .drop-down {
+  display: block;
+}
