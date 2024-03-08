@@ -1,0 +1,750 @@
+*,
+html,
+body, :root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.clear {
+  clear: both;
+}
+
+img {
+  max-width: 100%;
+  width: 100%;
+  height: 100%;
+  border: 0px;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  outline: none;
+  transition: all 0.4s ease-in-out;
+}
+
+a:focus,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
+  outline: none;
+}
+
+body main header a {
+  padding-bottom: 26px;
+}
+
+body main header a:hover {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+  text-decoration: none;
+}
+
+body main header .drop-down a:hover {
+  color: black;
+  border: 0;
+}
+
+button {
+  outline: none !important;
+}
+
+
+.brighten img {
+  filter: brightness(50%);
+  transition: all 1s ease;
+}
+
+.brighten img:hover {
+  filter: brightness(100%);
+}
+
+.card .bg-img {
+  background: url("https://niscka.com/cdn/shop/products/DSC09913.jpg?v=1675240705");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img:hover {
+  background: url("https://niscka.com/cdn/shop/products/DSC01850.jpg?v=1675240705");
+  background-size: cover;
+}
+
+.card .bg-img-1 {
+  background: url("https://www.pdpaola.com/cdn/shop/files/5-AN01-933-U_alt3_2c4689d2-9d7f-4917-b1b7-87fb9cf70e6d_500x.jpg?v=1690193346");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-1:hover {
+  background: url("https://www.pdpaola.com/cdn/shop/files/3-AN01-933_beauty1_a8f89a06-b4c7-4677-81fb-e50046e63fa4_500x.jpg?v=1690193339");
+  background-size: cover;
+}
+
+.card .bg-img-2 {
+  background: url("https://everstylish.com/pub/media/catalog/product/cache/f1831bc42043919087a4ff2769315671/j/e/jew1103213-t.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-2:hover {
+  background: url("https://everstylish.com/pub/media/catalog/product/cache/f1831bc42043919087a4ff2769315671/j/e/jew1103213_zoom.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-3 {
+  background: url("https://blingvine.com/cdn/shop/products/zehra-pearl-earrings-earrings-blingvine-374533_1000x.jpg?v=1655114900");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-3:hover {
+  background: url("https://blingvine.com/cdn/shop/products/zehra-pearl-earrings-earrings-blingvine-439063_1000x.jpg?v=1655114979");
+  background-size: cover;
+}
+
+/* Collection section */
+
+.card .bg-img-collection {
+  background: url("https://m.media-amazon.com/images/I/715XHk+ipyL._SY575_.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-collection:hover {
+  background: url("https://m.media-amazon.com/images/I/71U46H7KRuL._SY625_.jpg");
+  background-size: cover;
+}
+
+
+.card .bg-img-collection-1 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw10d1d882/images/hi-res/51W2SAVEI1AP3_1.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-collection-1:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw10d1d882/images/hi-res/51W2SAVEI1AP3_2.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-collection-2 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0cf2908b/images/hi-res/51W2BHVHA2A00_1.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-collection-2:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0cf2908b/images/hi-res/51W2BHVHA2A00_2.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-collection-3 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2479df05/images/hi-res/5120182HCABBP3_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-collection-3:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2479df05/images/hi-res/5120182HCABBP3_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-collection-4 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1977ec82/images/hi-res/50D2J1FESAA02_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-collection-4:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1977ec82/images/hi-res/50D2J1FESAA02_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-collection-5 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2ca060a6/images/hi-res/5111151DHAAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-collection-5:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2ca060a6/images/hi-res/5111151DHAAA00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-collection-6 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw21cd6086/images/hi-res/740841FSAAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-collection-6:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw21cd6086/images/hi-res/740841FSAAA00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-collection-7 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3e2f015c/images/hi-res/50D3B3YPJAA32_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-collection-7:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3e2f015c/images/hi-res/50D3B3YPJAA32_1.jpg");
+  background-size: cover;
+}
+
+/* birthstone section */
+
+
+.card .bg-img-birthstone {
+  background: url("https://bettyandbiddy.com/cdn/shop/products/image_ac05976a-d53d-4a58-962d-a4f850d88c6d.jpg?v=1681926502&width=1946");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-birthstone:hover {
+  background: url("https://bettyandbiddy.com/cdn/shop/products/image_fe0481c6-8ddd-4604-a85a-f7d5fcf82de1.png?v=1681926493&width=1946");
+  background-size: cover;
+}
+
+
+.card .bg-img-birthstone-1 {
+  background: url("https://uk.pandora.net/dw/image/v2/BFCR_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw6729e387/productimages/Gift%20Sets/B8BSE01_Birthstone-opendant-earrings-Giftset-JAN.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-birthstone-1:hover {
+  background: url("https://uk.pandora.net/dw/image/v2/BFCR_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw1791c3ae/productimages/singlepackshot/292334C06_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5");
+  background-size: cover;
+}
+
+.card .bg-img-birthstone-2 {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/27339_1000x1000.jpg?v=1684848054");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-birthstone-2:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/Orelia_6_05_04_22615251.jpg?v=1651234192&width=800");
+  background-size: cover;
+}
+
+.card .bg-img-birthstone-3 {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/27315_1000x1000.jpg?v=1651233552");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-birthstone-3:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/Orelia_6_05_04_22615321.jpg?v=1651233585&width=800");
+  background-size: cover;
+}
+
+.card .bg-img-birthstone-4 {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/25019white_1000x1000.jpg?v=1684836887");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-birthstone-4:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/IMG_5504.JPG?v=1671457828&width=800");
+  background-size: cover;
+}
+
+.card .bg-img-birthstone-5 {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/pearl_1000x1000.jpg?v=1695826918");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-birthstone-5:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/files/OreliaSS24DAY21997-3-2.jpg?v=1705317051&width=800");
+  background-size: cover;
+}
+
+.card .bg-img-birthstone-6 {
+  background: url("https://www.orelia.co.uk/cdn/shop/files/ORE29035Crop_1000x1000.jpg?v=1694010188");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-birthstone-6:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/files/ORELIASIRENE9150.jpg?v=1694010188&width=800https://www.orelia.co.uk/cdn/shop/products/27324_1000x1000.jpg?v=1651233916");
+  background-size: cover;
+}
+
+.card .bg-img-birthstone-7 {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/27324_1000x1000.jpg?v=1651233916");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-birthstone-7:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/Orelia_6_05_04_22616061.jpg?v=1651234015&width=800");
+  background-size: cover;
+}
+
+/* newin section */
+.card .bg-img-newin {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw68c524bf/images/hi-res/51G3I1CAAAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-newin:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw68c524bf/images/hi-res/51G3I1CAAAA00_1.jpg");
+  background-size: cover;
+}
+
+
+.card .bg-img-newin-1 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0de2ed3c/images/hi-res/51D2D1FRHAACZ_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-newin-1:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0de2ed3c/images/hi-res/51D2D1FRHAACZ_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-newin-2 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw445e1c83/images/hi-res/51T815FKD1A00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-newin-2:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw445e1c83/images/hi-res/51T815FKD1A00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-newin-3 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcb10b5ef/images/hi-res/513017CUVAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-newin-3:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwcb10b5ef/images/hi-res/513017CUVAA00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-newin-4 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw42d3843a/images/hi-res/50D5PTFSGAA10_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-newin-4:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw42d3843a/images/hi-res/50D5PTFSGAA10_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-newin-5 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6e92b48f/images/hi-res/507003FCJAA02_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-newin-5:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6e92b48f/images/hi-res/507003FCJAA02_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-newin-6 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd458e96b/images/hi-res/510722VBA2A00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-newin-6:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd458e96b/images/hi-res/510722VBA2A00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-newin-7 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9c3a124f/images/hi-res/501720HCOAAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-newin-7:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw9c3a124f/images/hi-res/501720HCOAAA00_1.jpg");
+  background-size: cover;
+}
+
+/* ring section */
+.card .bg-img-ring {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw962006ad/images/hi-res/50G3I1FBUAA09_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-ring:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw962006ad/images/hi-res/50G3I1FBUAA09_1.jpg");
+  background-size: cover;
+}
+
+
+.card .bg-img-ring-1 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3eb2c074/images/hi-res/51T340FAMAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-ring-1:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3eb2c074/images/hi-res/51T340FAMAA00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-ring-2 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwfe0f0c41/images/hi-res/51E2J1FBMAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-ring-2:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwfe0f0c41/images/hi-res/51E2J1FBMAA00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-ring-3 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw25380b27/images/hi-res/50D2PTFHTAA02_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-ring-3:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw25380b27/images/hi-res/50D2PTFHTAA02_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-ring-4 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw23770899/images/hi-res/51D3A1FAYAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-ring-4:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw23770899/images/hi-res/51D3A1FAYAA00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-ring-5 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0d223eef/images/hi-res/50D3B4FMIAA02_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-ring-5:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0d223eef/images/hi-res/50D3B4FMIAA02_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-ring-6 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa9dc1d7b/images/hi-res/502990FLDAZ69_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-ring-6:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa9dc1d7b/images/hi-res/502990FLDAZ69_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-ring-7 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw921fbf17/images/hi-res/502617FEOAB02_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-ring-7:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw921fbf17/images/hi-res/502617FEOAB02_1.jpg");
+  background-size: cover;
+}
+
+
+/* necklace section */
+.card .bg-img-necklace {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe2f37d9f/images/hi-res/50D3D1NXDAA21_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-necklace:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe2f37d9f/images/hi-res/50D3D1NXDAA21_1.jpg");
+  background-size: cover;
+}
+
+
+.card .bg-img-necklace-1 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2e58efc2/images/hi-res/50D2P2NCWAA32_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-necklace-1:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2e58efc2/images/hi-res/50D2P2NCWAA32_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-necklace-2 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3a6197c0/images/hi-res/50D3B2NTYAA02_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-necklace-2:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3a6197c0/images/hi-res/50D3B2NTYAA02_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-necklace-3 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw41342191/images/hi-res/50D4J12FOAGA02_1.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-necklace-3:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw41342191/images/hi-res/50D4J12FOAGA02_2.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-necklace-4 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd92b40e3/images/hi-res/50D3I1NENAA09_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-necklace-4:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwd92b40e3/images/hi-res/50D3I1NENAA09_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-necklace-5 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2fc57abb/images/hi-res/50D3I1NEOAA09_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-necklace-5:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2fc57abb/images/hi-res/50D3I1NEOAA09_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-necklace-6 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw879ddcc8/images/hi-res/50D2FFNGMAA32_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-necklace-6:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw879ddcc8/images/hi-res/50D2FFNGMAA32_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-necklace-7 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3941609a/images/hi-res/50D3I1NRFAA09_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-necklace-7:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3941609a/images/hi-res/50D3I1NRFAA09_1.jpg");
+  background-size: cover;
+}
+
+/* earing section */
+.card .bg-img-earring {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw26384237/images/hi-res/50D3PLSPGAAA10_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-earring:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw26384237/images/hi-res/50D3PLSPGAAA10_1.jpg");
+  background-size: cover;
+}
+
+
+.card .bg-img-earring-1 {
+  background: url("https://uk.pandora.net/dw/image/v2/BFCR_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw6729e387/productimages/Gift%20Sets/B8BSE01_Birthstone-opendant-earrings-Giftset-JAN.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-earring-1:hover {
+  background: url("https://uk.pandora.net/dw/image/v2/BFCR_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw1791c3ae/productimages/singlepackshot/292334C06_RGB.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5");
+  background-size: cover;
+}
+
+.card .bg-img-earring-2 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw09685e23/images/hi-res/50D2I2SOMADA02_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-earring-2:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw09685e23/images/hi-res/50D2I2SOMADA02_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-earring-3 {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/27315_1000x1000.jpg?v=1651233552");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-earring-3:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/Orelia_6_05_04_22615321.jpg?v=1651233585&width=800");
+  background-size: cover;
+}
+
+.card .bg-img-earring-4 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8256a8da/images/hi-res/50D2I2SIOADA09_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-earring-4:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8256a8da/images/hi-res/50D2I2SIOADA09_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-earring-5 {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/pearl_1000x1000.jpg?v=1695826918");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-earring-5:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/files/OreliaSS24DAY21997-3-2.jpg?v=1705317051&width=800");
+  background-size: cover;
+}
+
+.card .bg-img-earring-6 {
+  background: url("https://www.orelia.co.uk/cdn/shop/files/ORE29035Crop_1000x1000.jpg?v=1694010188");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-earring-6:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/files/ORELIASIRENE9150.jpg?v=1694010188&width=800https://www.orelia.co.uk/cdn/shop/products/27324_1000x1000.jpg?v=1651233916");
+  background-size: cover;
+}
+
+.card .bg-img-earring-7 {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/27324_1000x1000.jpg?v=1651233916");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-earring-7:hover {
+  background: url("https://www.orelia.co.uk/cdn/shop/products/Orelia_6_05_04_22616061.jpg?v=1651234015&width=800");
+  background-size: cover;
+}
+
+/* bracelet section */
+.card .bg-img-bracelet {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6b95e57d/images/hi-res/51F1D1BQLAACZ_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-bracelet:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6b95e57d/images/hi-res/51F1D1BQLAACZ_1.jpg");
+  background-size: cover;
+}
+
+
+.card .bg-img-bracelet-1 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8b6a880c/images/hi-res/50D3B2BUMAA02_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-bracelet-1:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8b6a880c/images/hi-res/50D3B2BUMAA02_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-bracelet-2 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc86a64e9/images/hi-res/50D3FFBBCAA10_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-bracelet-2:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwc86a64e9/images/hi-res/50D3FFBBCAA10_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-bracelet-3 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw09685bbf/images/hi-res/51F2LMBIIAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-bracelet-3:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw09685bbf/images/hi-res/51F2LMBIIAA00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-bracelet-4 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwea593742/images/hi-res/51F1D1BQVAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-bracelet-4:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwea593742/images/hi-res/51F1D1BQVAA00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-bracelet-5 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa15fb054/images/hi-res/50F2ZDBAIAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-bracelet-5:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwa15fb054/images/hi-res/50F2ZDBAIAA00_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-bracelet-6 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1eaaad51/images/hi-res/50D3B3BKRAA02_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-bracelet-6:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw1eaaad51/images/hi-res/50D3B3BKRAA02_1.jpg");
+  background-size: cover;
+}
+
+.card .bg-img-bracelet-7 {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw09bdef3a/images/hi-res/51D3B1BGFAA00_2.jpg");
+  background-size: cover;
+  height: 300px;
+}
+
+.card .bg-img-bracelet-7:hover {
+  background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw09bdef3a/images/hi-res/51D3B1BGFAA00_1.jpg");
+  background-size: cover;
+}
+
+footer a:hover {
+  color: #fff;
+  text-decoration: none;
+}
