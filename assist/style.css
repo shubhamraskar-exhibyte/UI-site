@@ -1,6 +1,7 @@
 *,
 html,
-body, :root {
+body,
+:root {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -52,10 +53,13 @@ body main header .drop-down a:hover {
   border: 0;
 }
 
+.cursor-pointer {
+  cursor: pointer;
+}
+
 button {
   outline: none !important;
 }
-
 
 .brighten img {
   filter: brightness(50%);
@@ -64,6 +68,374 @@ button {
 
 .brighten img:hover {
   filter: brightness(100%);
+}
+
+.container_ui {
+  padding: 2.5rem 7rem;
+}
+
+main header.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background: #000;
+  color: #fff;
+  padding: 1rem 7rem;
+}
+
+main header nav ul {
+  display: flex;
+  gap: 2.5rem;
+}
+
+main header .logo {
+  width: 8rem;
+  cursor: pointer;
+}
+
+main header .logo img {
+  filter: brightness(9.5);
+}
+
+main header .nav-icon {
+  display: flex;
+  gap: 2.5rem;
+  font-size: 20px;
+}
+
+main header .nav-icon li:last-child {
+  position: relative;
+}
+
+main header .nav-icon .count-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  top: -0.25rem;
+  right: -0.5rem;
+  background: red;
+  border-radius: 100%;
+  font-size: 8px;
+  color: #fff;
+}
+
+section .heading {
+  padding: 2.5rem 0;
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+}
+
+section.container_ui .type-divider {
+  display: flex;
+  gap: 2.5rem;
+}
+
+section.container_ui .type-divider .type-card {
+  position: relative;
+  height: auto;
+  display: flex;
+  padding: 1rem;
+  border: 1px solid #000;
+  flex: 1 1 0%;
+  cursor: pointer;
+}
+
+section.container_ui .type-divider .type-card img {
+  display: block;
+  object-fit: cover;
+  height: 500px;
+  width: 100%;
+}
+
+section.container_ui .type-divider .type-card .type-content {
+  position: absolute;
+  bottom: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: bold;
+  color: #fff;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+}
+
+section.container_ui .shop-item-gap {
+  display: flex;
+  gap: 1.25rem;
+}
+
+section.container_ui .card {
+  position: relative;
+  cursor: pointer;
+  flex: 1 1 0%;
+}
+
+section.container_ui .card img {
+  height: 18.75rem;
+  flex: 1 1 0%;
+  position: relative;
+}
+
+section.container_ui .content-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+
+section.container_ui .product-gap {
+  gap: 5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+section.container_ui .card .card-content {
+  background: #fff;
+  position: absolute;
+  color: #000;
+  bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding: .5rem;
+  text-transform: uppercase;
+}
+
+section.container_ui .shop-item-gap .card .add-btn {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-transform: uppercase;
+  color: white;
+  background: #000;
+  margin-top: 1rem;
+  padding: .5rem;
+  width: 100%;
+}
+
+section.video-section {
+  padding: 2.5rem 0;
+}
+
+section.video-section video {
+  position: absolute;
+  inset: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+section.story-section {
+  padding: 2.5rem 0;
+}
+
+section.story-section .story-item,
+.headline-content {
+  display: flex;
+  background: #000;
+  color: #fff;
+}
+
+.highlight-content {
+  display: flex;
+  flex-direction: column;
+}
+
+section.story-section .story-content,
+.headline-content .story-content {
+  flex: 1 1 0%;
+  padding: 11rem;
+}
+
+.top-gap-4 {
+  margin-top: 1rem;
+}
+
+.top-gap-6 {
+  margin-top: 1.5rem;
+}
+
+.top-gap-1 {
+  margin-top: .25rem;
+}
+
+.medium-text-size {
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+}
+
+.shop-now-btn {
+  text-transform: uppercase;
+  padding: .5rem 1.5rem;
+  border: 2px solid #fff;
+}
+
+.shop-now-btn:hover {
+  color: #000;
+  background: #fff;
+}
+
+.offline-map {
+  width: 100%;
+  height: 500px;
+  padding-top: 4rem;
+}
+
+.offline-map img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.slider-content {
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.slider-position {
+  position: absolute;
+  top:35% ;
+  left:7%;
+}
+
+.slider-arrow-right {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+}
+
+.slider-arrow-left {
+  position: absolute;
+  right: 5rem;
+  bottom: 1rem;
+}
+
+section.story-section .story-content .content,
+.headline-content .story-content .content {
+  text-transform: uppercase;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  font-weight: bold;
+  letter-spacing: .02rem;
+  color: #fff;
+}
+
+section.video-section .preview-video {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 1.5rem;
+  padding-top: 24rem;
+}
+
+.footer-section {
+  padding-top: 2.5rem;
+}
+
+.footer-section .footer-item {
+  display: flex;
+  color: white;
+  background: #000;
+  padding: 2rem 7rem;
+}
+
+.footer-section .footer-item .footer-logo {
+  flex: 1 1 0%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.footer-section .footer-item .footer-logo .logo {
+  width: 13rem;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.sub-image {
+  position: absolute;
+  height: 13rem;
+  width: 13rem;
+  right: -5rem;
+  bottom: -2.5rem;
+}
+
+.footer-section .footer-item .footer-logo .logo img {
+  filter: brightness(9.5);
+}
+
+.footer-section .footer-item .footer-nav,
+.footer-section .footer-item .footer-sub,
+.footer-section .footer-item .footer-nav .footer-nav-list nav,
+section.story-section .story-image,
+.image-content {
+  flex: 1 1 0%;
+  position: relative;
+}
+
+.footer-section .footer-item .footer-nav .footer-nav-list,
+.footer-section .footer-item .footer-sub .footer-input {
+  display: flex;
+  gap: 1.5rem;
+}
+
+
+.footer-section .footer-item .footer-nav .footer-nav-list nav h1,
+.footer-section .footer-item .footer-sub h1 {
+  color: white;
+  font-weight: bold;
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  margin-bottom: .75rem;
+  text-wrap: nowrap;
+}
+
+.footer-section .footer-item .footer-nav .footer-nav-list nav ul,
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.footer-section .footer-item .footer-sub .footer-input input,
+.footer-section .footer-item .footer-sub .footer-input button {
+  border-bottom: 2px solid white;
+  width: 100%;
+  display: block;
+  background: transparent;
+  color: white;
+  line-height: 1.25;
+  padding: .75rem 1.5rem;
+  appearance: none;
+}
+
+.footer-section .footer-item .footer-sub .footer-input button {
+  width: auto;
+  border: 2px solid white;
+}
+
+.footer-section .footer-item .footer-sub .footer-input button:hover {
+  opacity: .75;
+}
+
+.footer-section .footer-item .footer-sub .footer-input input:focus {
+  outline: none;
+}
+
+.birthstone-list {
+  display: flex;
+  gap: .75rem;
+  padding: 4rem 7rem;
 }
 
 .card .bg-img {
@@ -122,7 +494,6 @@ button {
   background: url("https://m.media-amazon.com/images/I/71U46H7KRuL._SY625_.jpg");
   background-size: cover;
 }
-
 
 .card .bg-img-collection-1 {
   background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw10d1d882/images/hi-res/51W2SAVEI1AP3_1.jpg");
@@ -203,7 +574,6 @@ button {
 
 /* birthstone section */
 
-
 .card .bg-img-birthstone {
   background: url("https://bettyandbiddy.com/cdn/shop/products/image_ac05976a-d53d-4a58-962d-a4f850d88c6d.jpg?v=1681926502&width=1946");
   background-size: cover;
@@ -214,7 +584,6 @@ button {
   background: url("https://bettyandbiddy.com/cdn/shop/products/image_fe0481c6-8ddd-4604-a85a-f7d5fcf82de1.png?v=1681926493&width=1946");
   background-size: cover;
 }
-
 
 .card .bg-img-birthstone-1 {
   background: url("https://uk.pandora.net/dw/image/v2/BFCR_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw6729e387/productimages/Gift%20Sets/B8BSE01_Birthstone-opendant-earrings-Giftset-JAN.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5");
@@ -305,7 +674,6 @@ button {
   background-size: cover;
 }
 
-
 .card .bg-img-newin-1 {
   background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw0de2ed3c/images/hi-res/51D2D1FRHAACZ_2.jpg");
   background-size: cover;
@@ -395,7 +763,6 @@ button {
   background-size: cover;
 }
 
-
 .card .bg-img-ring-1 {
   background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw3eb2c074/images/hi-res/51T340FAMAA00_2.jpg");
   background-size: cover;
@@ -473,7 +840,6 @@ button {
   background-size: cover;
 }
 
-
 /* necklace section */
 .card .bg-img-necklace {
   background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe2f37d9f/images/hi-res/50D3D1NXDAA21_2.jpg");
@@ -485,7 +851,6 @@ button {
   background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dwe2f37d9f/images/hi-res/50D3D1NXDAA21_1.jpg");
   background-size: cover;
 }
-
 
 .card .bg-img-necklace-1 {
   background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw2e58efc2/images/hi-res/50D2P2NCWAA32_2.jpg");
@@ -576,7 +941,6 @@ button {
   background-size: cover;
 }
 
-
 .card .bg-img-earring-1 {
   background: url("https://uk.pandora.net/dw/image/v2/BFCR_PRD/on/demandware.static/-/Sites-pandora-master-catalog/default/dw6729e387/productimages/Gift%20Sets/B8BSE01_Birthstone-opendant-earrings-Giftset-JAN.jpg?sw=900&sh=900&sm=fit&sfrm=png&bgcolor=F5F5F5");
   background-size: cover;
@@ -665,7 +1029,6 @@ button {
   background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw6b95e57d/images/hi-res/51F1D1BQLAACZ_1.jpg");
   background-size: cover;
 }
-
 
 .card .bg-img-bracelet-1 {
   background: url("https://www.tanishq.co.in/on/demandware.static/-/Sites-Tanishq-product-catalog/default/dw8b6a880c/images/hi-res/50D3B2BUMAA02_2.jpg");
